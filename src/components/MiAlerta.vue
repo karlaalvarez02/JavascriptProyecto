@@ -1,5 +1,10 @@
 <template>
-  <div class="modal" tabindex="-1" role="dialog" style="display: block; padding-right: 17px;">
+  <div
+    class="modal"
+    tabindex="-1"
+    role="dialog"
+    style="display: block; padding-right: 17px;"
+  >
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -20,13 +25,17 @@
           </p>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-primary" @click="entendido">Ok</button>
+          <button type="button" class="btn btn-primary" @click="entendido">
+            Ok
+          </button>
           <button
             type="button"
             class="btn btn-secondary"
             data-dismiss="modal"
             @click="cancelado"
-          >Cancel</button>
+          >
+            Cancel
+          </button>
         </div>
       </div>
     </div>
